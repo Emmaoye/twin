@@ -27,7 +27,12 @@ Write-Host "Preparing to destroy $ProjectName-$Environment infrastructure..." -F
 Set-Location (Join-Path (Split-Path $PSScriptRoot -Parent) "terraform")
 
 # Optional but recommended: initialize Terraform before workspace/destroy commands
-& $Terraform init -input=false
+& $Terraform init -input=false `
+  -backend-config="bucket=twin-terraform-state-$awsAccountId" `
+  -backend-config="key=$Environment/terraform.tfstate" `
+  -backend-config="region=$awsRegion" `
+  -backend-config="dynamodb_table=twin-terraform-locks" `
+  -backend-config="encrypt=true"
 
 # Check if workspace exists
 $workspaces = & $Terraform workspace list
