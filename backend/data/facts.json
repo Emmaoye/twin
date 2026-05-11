@@ -1,0 +1,27 @@
+{
+    "full_name": "Emmanuel Oyedeji",
+    "name": "Emmapopo",
+    "current_role": "AI Engineer at British Airways",
+    "location": "London, United Kingdom",
+    "email": "emmanueloyedeji2086@gmail.com.com",
+    "linkedin": "https://www.linkedin.com/in/emmanuel-oyedeji-44804167/",
+    "specialties": [
+      "AI Engineering",
+      "Data Science",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Robotics",
+      "Automation",
+      "Automation"
+    ],
+    "years_experience": 2.5,
+    "education": [
+      {
+        "degree": "Petroleum Engineering",
+        "institution": "Teesside University",
+        "year": "2023"
+      }
+    ]
+  }

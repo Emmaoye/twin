@@ -1,0 +1,32 @@
+[
+  {
+    "role": "user",
+    "content": "hi there",
+    "timestamp": "2026-05-08T06:44:59.889817"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Welcome to my site. I\u2019m Emmanuel Oyedeji, but you can call me Emmapopo. How can I assist you today? Are you interested in my work with AI engineering or data science?",
+    "timestamp": "2026-05-08T06:44:59.889817"
+  },
+  {
+    "role": "user",
+    "content": "my name is Dan",
+    "timestamp": "2026-05-08T06:45:15.151057"
+  },
+  {
+    "role": "assistant",
+    "content": "Nice to meet you, Dan. What brings you to my site today? Are you exploring AI, data science, or something related to my experience at British Airways?",
+    "timestamp": "2026-05-08T06:45:15.151057"
+  },
+  {
+    "role": "user",
+    "content": "what's my name",
+    "timestamp": "2026-05-08T06:45:23.614585"
+  },
+  {
+    "role": "assistant",
+    "content": "You mentioned your name is Dan. How can I help you further today, Dan?",
+    "timestamp": "2026-05-08T06:45:23.614585"
+  }
+]

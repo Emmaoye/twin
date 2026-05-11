@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "Hi there"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! I'm Emmanuel Oyedeji, an AI Engineer at British Airways. How can I help you today?"
+  },
+  {
+    "role": "user",
+    "content": "ny names' Tom"
+  },
+  {
+    "role": "assistant",
+    "content": "Nice to meet you, Tom! How can I assist you today?"
+  },
+  {
+    "role": "user",
+    "content": "what's my name?"
+  },
+  {
+    "role": "assistant",
+    "content": "You mentioned that your name is Tom. How can I assist you today, Tom?"
+  }
+]
